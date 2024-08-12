@@ -1,11 +1,11 @@
 {
   "name": "@flyerhq/react-native-chat-ui",
   "version": "1.4.3",
-  "description": "Actively maintained, community-driven chat UI implementation with an optional Firebase BaaS.",
-  "homepage": "https://flyer.chat",
+  "description": "Chat UI implementation with an optional Firebase BaaS.",
+  "homepage": "https://umob.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flyerhq/react-native-chat-ui.git"
+    "url": "https://github.com/umob-developer/react-native-chat-ui"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -114,5 +114,6 @@
     "is": 100,
     "showRelativePath": true,
     "strict": true
-  }
+  },
+  "packageManager": "yarn@4.6.0+sha512.5383cc12567a95f1d668fbe762dfe0075c595b4bfff433be478dbbe24e05251a8e8c3eb992a986667c1d53b6c3a9c85b8398c35a960587fbd9fa3a0915406728"
 }
