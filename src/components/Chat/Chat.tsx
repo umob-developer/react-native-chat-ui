@@ -12,6 +12,7 @@ import {
   GestureResponderHandlers,
   InteractionManager,
   LayoutAnimation,
+  Platform,
   StatusBar,
   StatusBarProps,
   Text,
@@ -382,6 +383,7 @@ export const Chat = ({
         onEndReached={handleEndReached}
         ref={list}
         renderItem={renderItem}
+        removeClippedSubviews={Platform.OS !== 'android'} // fixes crash in android
         {...panHandlers}
       />
     ),
